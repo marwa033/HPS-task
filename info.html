@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patient info.</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="animate.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand" href="index.html">logo</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link mr-4 active" href="info.html">Patient information</a>
+                        <a class="nav-item nav-link mr-5" href="index.html">Login</a>
+                      </div>
+                    </div>
+                  </nav>
+                  
+                  <div class="card bg-dark text-white">
+                        <img class="card-img" src="images/1.jpg" alt="Card image" height="450px">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title mt-5"></h5>
+                          <h2 class="card-text animated flip">-OUR PATIENTS-<br>HPS</h2>
+                         </div>
+                      </div>
+                  <section class="container">
+             
+                      <section class="row justify-content-center">
+                          <section class="col-12 col-md-4 mt-3 ">
+                                <form class="form-inline">
+                                        <input class="form-control mr-sm-2 animated fadeInLeft" type="search" placeholder="Search by patient name" aria-label="Search">
+                                        <button class="btn btn-info my-2 my-sm-0 animated fadeInRight" type="submit">Search</button>
+                                      </form>    
+                          </section>
+                      </section>
+                          <section class="row mt-3">
+                          <section class="col-12 col-md-12">
+                                <table class="table table-active table-hover">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">ID</th>
+                                            <th scope="col">First Name</th>
+                                            <th scope="col">Last Name</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Time</th>                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr  class="pointer" data-toggle="modal" data-target="#exampleModalLong">
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>19/8/2019</td>
+                                            <td>10:15 AM</td>
+                                          </tr>
+                                          <tr class="pointer" data-toggle="modal" data-target="#exampleModalLong">
+                                            <th scope="row">2</th>
+                                            <td>Mahamed</td>
+                                            <td>Samir</td>
+                                            <td>5/8/2019</td>
+                                            <td>1:28 AM</td>
+                                              </tr>
+                                              <tr class="pointer" data-toggle="modal" data-target="#exampleModalLong">
+                                             <th scope="row">3</th>
+                                             <td>Maged</td>
+                                             <td>Zaki</td>
+                                             <td>5/8/2019</td>
+                                             <td>5:47 PM</td>
+                                               </tr>
+                                              <tr class="pointer" data-toggle="modal" data-target="#exampleModalLong">
+                                            <th scope="row">4</th>
+                                             <td>Amira</td>
+                                             <td>Ahmed</td>
+                                             <td>1/8/2019</td>
+                                             <td>6:35 PM</td>
+                                             </tr>
+                                              <tr class="pointer" data-toggle="modal" data-target="#exampleModalLong">
+                                            <th scope="row">5</th>
+                                            <td>Kareem</td>
+                                            <td>Muhammed</td>
+                                            <td>29/7/2019</td>
+                                            <td>12:46 AM</td>
+                                              </tr>
+                                            <tr class="pointer" data-toggle="modal" data-target="#exampleModalLong">
+                                            <th scope="row">6</th>
+                                            <td>Maged</td>
+                                            <td>Osama</td>
+                                            <td>24/7/2019</td>
+                                            <td>4:31 PM</td>
+                                            </tr>
+                                            <tr class="pointer" data-toggle="modal" data-target="#exampleModalLong">
+                                            <th scope="row">7</th>
+                                            <td>Zenab</td>
+                                            <td>Zyad</td>
+                                            <td>19/7/2019</td>
+                                            <td>7:55 AM</td>
+                                         </tr>
+                                                                
+                                        </tbody>
+                                        </table>
+                       </section>
+                    </section>
+                       </section></section>
+                             <footer>
+                            <section class="container mt-3">
+                                <br>
+                                <section class="row justify-content-center">
+                                    <section class="col-12 col-md-6">
+                        <section class="header">&copy; 2019 HPS </section>
+                            </section>
+                        </section>
+                        </section>
+                                        </footer>
+    
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Patient Report</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <h6 class="header">Personal Information</h6>
+              <section class="row">
+                  <section class="col-md-6">
+                      <p>Name:<small> Muhamed Zaki</small></p>
+                      <p>Adress:<small> Cairo/egypt</small></p>
+                  </section>
+                  <section class="col-md-6">
+                        <p>Telephone:<small> 02587413</small></p>
+                        <p>E-mail:<small> Muhamed@gmail.com</small></p>
+                    </section>
+              </section>
+              <hr>
+              <h6 class="header">Complete Blood Count</h6>
+              <small>Lorem ipsum dolor sit amet, tortor dictum pede lorem, sagittis aute varius non,
+                    tempor. Vestibulum nec porttitor eros amet nec nunc, lacus suscipit, 
+                    id non curabitur amet mollis. Amet massa blandit quam. Massa wisi mus turpis, facilisis odio,                    Lorem ipsum dolor sit amet, tortor dictum pede lorem, sagittis aute varius non,
+              </small>
+              <hr>
+              <h6 class="header">Chemistry Unit</h6>
+              <small>Lorem ipsum dolor sit amet, tortor dictum pede lorem, sagittis aute varius non,
+                    id non curabitur amet mollis. Amet massa blandit quam. Massa wisi mus turpis, facilisis odio,
+                    tempor. Vestibulum nec porttitor eros amet nec nunc, lacus suscipit,   </small>
+            </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-info btn-block" data-dismiss="modal">OK</button>
+                </div>
+          </div>
+        </div>
+      </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        </body>
+</html>
